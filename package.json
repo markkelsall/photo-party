@@ -1,7 +1,7 @@
 {
-  "name": "simple-react-full-stack",
+  "name": "photo-party",
   "version": "1.0.0",
-  "description": "Boilerplate to build a full stack web application using React, Node.js, Express and Webpack.",
+  "description": "Starter web app for uploading images.",
   "main": "src/server/index.js",
   "scripts": {
     "start": "node src/server/index.js",
@@ -10,7 +10,7 @@
     "server": "nodemon src/server/index.js --exec babel-node --presets es2015,stage-2",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "author": "Sandeep Raveesh",
+  "author": "Mark Kelsall",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3",
