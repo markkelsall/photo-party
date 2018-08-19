@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import "./app.css";
 import ReactImage from "./react.png";
+import { hot } from 'react-hot-loader';
 
-export default class App extends Component {
+class App extends Component {
   constructor(props) {
     super(props);
     this.state = { username: null };
@@ -27,3 +28,5 @@ export default class App extends Component {
     );
   }
 }
+
+export default hot(module)(App);
