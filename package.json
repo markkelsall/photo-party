@@ -16,7 +16,8 @@
     "express": "^4.16.3",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
-    "react-hot-loader": "^4.3.4"
+    "react-hot-loader": "^4.3.4",
+    "redis": "^2.8.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
